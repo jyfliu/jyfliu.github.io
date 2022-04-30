@@ -1,0 +1,754 @@
+{
+    "wei001": {
+        "uuid": "cao-cao",
+        "name": "Cao Cao 曹操",
+        "title": "Martial Emperor of Wei 魏武帝",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Evil Hero 奸雄",
+                "text": "When Cao Cao is damaged by a card, he can immediately put it into his hand."
+            },
+            {
+                "title": "Escort 护驾",
+                "text": "King Ability: If Cao Cao needs to use an Escape, a member of Wei can use an Escape on his behalf."
+            }
+        ]
+    },
+    "wei002": {
+        "uuid": "sima-yi",
+        "name": "Sima Yi 司马懿",
+        "title": "Ever Watchful Wolf 狼顾之鬼",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Feedback 反馈",
+                "text": "When a player damages Sima Yi, he can choose to take one of their cards and place it in his hand."
+            },
+            {
+                "title": "Devil 鬼才",
+                "text": "After a judgement card is flipped, Sima Yi can discard one of his hand cards. The hand card that Sima Yi discard then becomes the new judgement card."
+            }
+        ]
+    },
+    "wei003": {
+        "uuid": "xiaohou-dun",
+        "name": "Xiahou Dun 夏侯敦",
+        "title": "One Eyed Companion 独眼的罗刹",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Unyielding 刚烈",
+                "text": "When Xiahou Dun is damaged by another character, he can flip a judgment card. If the card is not a heart, the character that damaged him must either receive one unit of damage from Xiahou Dun or discard two hand cards."
+            }
+        ]
+    },
+    "wei004": {
+        "uuid": "zhang-liao",
+        "name": "Zhang Liao 张辽",
+        "title": "General of the Vanguard 前将军",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Raid 突袭",
+                "text": "During Zhang Liao's drawing phase, he can choose to forego drawing two cards from the deck and instead select up to two characters with hand cards. Zhang Liao takes one hand card from each character and places them in his hand."
+            }
+        ],
+        "clarifications": [
+            "Zhang Liao cannot take two cards from the same person via \"raid\"",
+            "Zhang Liao cannot mix \"Raid\" with drawing from the deck, ie., he cannot take one hand card from an opponent and draw one from the deck"
+        ]
+    },
+    "wei005": {
+        "uuid": "xu-chu",
+        "name": "Xu Chu 许诸",
+        "title": "Crazy Tiger 虎痴",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Bare the Chest 裸衣",
+                "text": "During Xu Chu's drawing phase, he can choose to draw one fewer card. During his action phase, all damage that he causes by using _Attack_s or _Duel_s is increased by one."
+            }
+        ]
+    },
+    "wei006": {
+        "uuid": "guo-jia",
+        "name": "Guo Jia 郭嘉",
+        "title": "Prophet with an Early End 早终的先知",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Heaven's Envy 天妒",
+                "text": "Whenever Guo Jia flips a judgement card, he places into his hand before it takes effect."
+            },
+            {
+                "title": "Bestowed Rouse 遣计",
+                "text": "For each unit of damage that Guo Jia receives, he draws two cards. He can then distribute these cards in any way that he sees fit among the characters in play."
+            }
+        ],
+        "clarifications": [
+            "If Guo Jia is brought to the brink of death, he must be revived before he can draw cards from \"Bestowed Rouse.\""
+        ]
+    },
+    "wei007": {
+        "uuid": "zhen-ji",
+        "name": "Zhen Ji 甄姬",
+        "title": "Unfortunate Beauty 薄幸的美人",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Overturned Country 倾国",
+                "text": "Zhen Ji can use any black hand card as a dodge."
+            },
+            {
+                "title": "River Goddess 洛神",
+                "text": "Before her judgment phase, Zhen Ji can choose to flip a judgement card. If it is black, she choose to flip over another judgement card. This process continues until Zhen Ji flips a red judgement card. The red judgement card is discarded and the black judgement cards are placed in Zhen Ji's hand."
+            }
+        ]
+    },
+    "wei008": {
+        "uuid": "xiahou-yuan",
+        "name": "Xiahou Yuan 夏侯渊",
+        "title": "Running Cheetah 急行的猎豹",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Godspeed 神速",
+                "text": "During his turn, Xiahou Yuan can exercise either or both of the following options to attack any character regardless of their distance from him:\n\n1.) Skip his judgement and drawing phases.\n2.) Skip his action phase and discard any equipment card."
+            }
+        ]
+    },
+    "wei010": {
+        "uuid": "xu-huang",
+        "name": "Xu Huang 徐晃",
+        "title": "Zhou Yafu of Old 周亚夫之风",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Blockade 断粮",
+                "text": "Xu Huang can use any black-suited basic or equipment card as Starvation. Furthermore, Xu Huang's range with respect to the use of Starvation is increased by one. "
+            }
+        ]
+    },
+    "wei011": {
+        "uuid": "cao-ren",
+        "name": "Cao Ren 曹仁",
+        "title": "Great General 大将军",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Entrench 据守",
+                "text": "After his discard phase, Cao Ren can choose to flip his character card and draw three cards."
+            }
+        ]
+    },
+    "wei012": {
+        "uuid": "dian-wei",
+        "name": "Dian Wei 典韦",
+        "title": "Ancient E Lai 古之恶来",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Assault 强袭",
+                "text": "Once during Dian Wei's turn, he can cause one unit of damage to any character within his attacking range by either discarding a weapon card or taking one unit of negligence damage."
+            }
+        ]
+    },
+    "wei013": {
+        "uuid": "xun-yu",
+        "name": "Xun Yu 荀彧",
+        "title": "Advisor of Kings 王佐之才",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Rouse the Tiger 驱虎",
+                "text": "Once during his action phase, Xun Yu can compete with any character with more health. If Xun Yu wins, he can select a player within the target's attacking range and the target deals one unit of damage to that player. If Xun Yu loses, the target deals one unit of damage to Xun Yu."
+            },
+            {
+                "title": "Eternal Loyalty 节命",
+                "text": "For each unit of damage that Xun Yu receives, he can select one character. This character then draws cards until the number of cards in their hand is equal to their maximum health limit."
+            }
+        ]
+    },
+    "wei014": {
+        "uuid": "cao-pi",
+        "name": "Cao Pi 曹丕",
+        "title": "Dominating Successor 霸业的继承者",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Unnatural Death 行殇",
+                "text": "When another character dies, Cao Pi can choose to take all of their cards."
+            },
+            {
+                "title": "Exile 放逐",
+                "text": "When Cao Pi is damaged, he can choose any character (other than himself) and force them to flip their character card. The flipped character then draws X cards, X being the difference between Cao Pi's maximum health level and his current health level after the damage was inflicted."
+            },
+            {
+                "title": "Exaltation 颂威",
+                "text": "King Ability: When a Wei character flips a black judgement card, they can allow Cao Pi to draw a card."
+            }
+        ]
+    },
+    "shu001": {
+        "uuid": "liu-bei",
+        "name": "Liu Bei 刘备",
+        "title": "Hero Through Troubled Times 乱世的枭雄",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Kindness 仁德",
+                "text": "Liu Bei's can give any number of his hand cards to any players. If he gives away more than one card, he recovers one unit of health."
+            },
+            {
+                "title": "Fierce General 激将",
+                "text": "King Ability: If Liu Bei needs to use an attack, he can ask any member of Shu to provide him one."
+            }
+        ]
+    },
+    "shu002": {
+        "uuid": "guan-yu",
+        "name": "Guan Yu 关羽",
+        "title": "Bearded Gentleman 美须公",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Fighting Saint 武圣",
+                "text": "Guan Yu can use any red card as an attack."
+            }
+        ],
+        "clarifications": [
+            "Guan Yu's \"Fighting Saint\" allows him to use any of his red cards as _Attack_, whether they are equipped or in his hand. If he uses an equipped card to attack, he sacrifices the properties of the equipment before the attack"
+        ]
+    },
+    "shu003": {
+        "uuid": "zhang-fei",
+        "name": "Zhang Fei 张飞",
+        "title": "Ten Thousand Men Cannot Equal 万夫不当",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Roar 咆哮",
+                "text": "Zhang Fei has no restrictions on how many times he can attack during his turn."
+            }
+        ]
+    },
+    "shu004": {
+        "uuid": "zhuge-liang",
+        "name": "Zhuge Liang 诸葛亮",
+        "title": "Old Prime Minister 迟暮的丞相",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Astrology 观星",
+                "text": "Before his judgment phase, Zhuge Liang can look at the top X cards of the deck, where X is either the number of characters in play or 5, whichever number is smaller. He can then rearrange the order of these cards and put as many on the bottom of the deck as he chooses."
+            },
+            {
+                "title": "Empty City 空城",
+                "text": "When Zhuge Liang has no hand cards, he cannot be the target of an attack or duel."
+            }
+        ]
+    },
+    "shu005": {
+        "uuid": "zhao-yun",
+        "name": "Zhao Yun 赵云",
+        "title": "Young General 少年将军",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Dragon Courage 龙胆",
+                "text": "Zhao Yun can use attacks and dodges interchangeably."
+            }
+        ]
+    },
+    "shu006": {
+        "uuid": "ma-chao",
+        "name": "Ma Chao 马超",
+        "title": "One Rider Matches One Thousand 一骑当千",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Horsemanship 马术",
+                "text": "Ma Chao always has a -1 bonus."
+            },
+            {
+                "title": "Iron Calvary 铁骑",
+                "text": "When Ma Chao attacks a player, he can flip a judgment card. If it is red, the attack cannot be dodged."
+            }
+        ]
+    },
+    "shu007": {
+        "uuid": "huang-yue-ying",
+        "name": "Huang Yue Ying 黄月英",
+        "title": "Veiled Heroine 归隐的杰女",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Gathering Wisdom 集智",
+                "text": "Whenever Huang Yue Ying uses a non-delay tool card, she immediately draws a card."
+            },
+            {
+                "title": "Wondrous Talent 奇才",
+                "text": "Whenever Huang Yue Ying uses a tool card, she has no range restrictions."
+            }
+        ]
+    },
+    "shu008": {
+        "uuid": "huang-zhong",
+        "name": "Huang Zhong 黄忠",
+        "title": "Old but Strong 老当益壮",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Strong Bow 烈弓",
+                "text": "When Huang Zhong attacks another character during his turn, he can make the attack unblockable if either of the following two conditions are true:\n\n1- Huang Zhong's attack range is greater than or equal to the number of cards in the target's hand.\n2- The amount of health that Huang Zhong has is less than or equal to the number of cards in the target's hand."
+            }
+        ]
+    },
+    "shu009": {
+        "uuid": "wei-bei",
+        "name": "Wei Yan 魏延",
+        "title": "Bloodthirsty Lone Wolf 嗜血的独狼",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Violent Spirit 狂骨",
+                "text": "For each unit of damage that Wei Yan causes damage to somebody in his range, he regains one unit of health."
+            }
+        ],
+        "clarifications": [
+            "Wei Yan's \"Violent Spirit\" activates even when he hurts himself. However, if he brings himself to the brink of death, he must be saved with a Peach or Wine before regaining the additional unit of health."
+        ]
+    },
+    "shu010": {
+        "uuid": "pang-tong",
+        "name": "Pang Tong 庞统",
+        "title": "Young Phoenix 凤雏",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Shackle 连环",
+                "text": "Pang Tong can use any club hand card as Chains."
+            },
+            {
+                "title": "Nirvana 涅槃",
+                "text": "Once per game, when Pang Tong is on the brink of death, he can choose to discard all of his cards, draw three cards, and return with three units of health."
+            }
+        ]
+    },
+    "shu011": {
+        "uuid": "zhuge-liang-8",
+        "name": "Young Zhuge Liang 诸葛亮",
+        "title": "Sleeping Dragon 卧龙",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Eight Arrays 八阵",
+                "text": "If Zhuge Liang has no armor equipped, he has the protection of the _Eight Trigrams_.\n\nEight Trigrams: Whenever an dodge is needed, the wearer can perform a judgment. If it is red, the dodge is considered to be provided."
+            },
+            {
+                "title": "Fire Strategy 火计",
+                "text": "Zhuge Liang can use any of his red hand cards as a _Blaze_."
+            },
+            {
+                "title": "See Through 看破",
+                "text": "Zhuge Liang can use any of his black hand cards as a _Negate_."
+            }
+        ]
+    },
+    "shu014": {
+        "uuid": "meng-huo",
+        "name": "Meng Huo 孟获",
+        "title": "Southern Barbarian King 南蛮王",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Culprit 祸首",
+                "text": "Meng Huo is not affected by barbarians and is always considered the source of any damage it causes."
+            },
+            {
+                "title": "Resurgence 再起",
+                "text": "At the beginning of his turn, if Meng Huo is not at full health, he can skip drawing to flip over X cards from the top of the deck.  X is equal to the difference between his current and maximum health. For each heart that is flipped, Meng Huo recovers one health. The heart cards are discarded and the rest of the cards go into Meng Huo's hand."
+            }
+        ]
+    },
+    "shu015": {
+        "uuid": "zhu-rong",
+        "name": "Zhu Rong 祝融",
+        "title": "Queen of the Wilds 野性的女王",
+        "alignment": "Shu",
+        "abilities": [
+            {
+                "title": "Giant Elephant 巨象",
+                "text": "Whenever another character plays barbarians, Zhu Rong is not affected. After all other effects have been concluded, Zhu Rong places the card in her hand."
+            },
+            {
+                "title": "Intense Edge 烈刃",
+                "text": "Whenever Zhu Rong damages another character with an attack, she can compete with the character. If she wins, she can take one of their cards and puts it in her hand."
+            }
+        ]
+    },
+    "wu001": {
+        "uuid": "sun-quan",
+        "name": "Sun Quan 孙权",
+        "title": "Young and Worthy Lord 年轻的贤君",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Reconsider 制衡",
+                "text": "Once during his turn, Sun Quan can discard any number of cards to draw the same number."
+            },
+            {
+                "title": "Rescued 救援",
+                "text": "King Ability: Whenever another member of Wu uses a Peach to save Sun Quan from the brink of death, it provides him with two units of health."
+            }
+        ]
+    },
+    "wu002": {
+        "uuid": "gan-ning",
+        "name": "Gan Ning 甘宁",
+        "title": "Pirate with Silk Sails 锦帆游侠",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Surprise 奇袭",
+                "text": "During his turn, Gan Ning can use any black card as _Break_."
+            }
+        ]
+    },
+    "wu003": {
+        "uuid": "lu-meng",
+        "name": "Lu Meng 吕蒙",
+        "title": "Ford the River in White 白衣渡江",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Self-Restraint 克己",
+                "text": "If Lu Meng does not use any attack cards during his turn, he can skip his discard phase."
+            }
+        ]
+    },
+    "wu004": {
+        "uuid": "huang-gai",
+        "name": "Huang Gai 黄盖",
+        "title": "Losing Flesh for the Country 轻身为国",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Battered Body 苦肉",
+                "text": "As many times as he would like during his turn, Huang Gai can choose to lose one unit of health to draw two cards."
+            }
+        ],
+        "clarifications": [
+            "Huang Gai can bring himself to the brink of death (or even kill himself outright) with \"Battered Body,\" but he does not get to draw two cards until he is revived."
+        ]
+    },
+    "wu005": {
+        "uuid": "zhou-yu",
+        "name": "Zhou Yu 周瑜",
+        "title": "Viceroy 大都督",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Brave Gesture 英姿",
+                "text": "During his drawing phase, Zhou Yu can draw an additional card."
+            },
+            {
+                "title": "Sow Revolt 反间",
+                "text": "Once per turn, Zhou Yu can select a player and force them to choose a suit. Then, the target chooses one of Zhou Yu's hand cards. The card is then revealed, then placed in the target's hand. If the target guessed the suit incorrectly, they receive one unit of damage on behalf of Zhou Yu."
+            }
+        ]
+    },
+    "wu006": {
+        "uuid": "da-qiao",
+        "name": "Da Qiao 大乔",
+        "title": "Reserved Flower 矜持之花",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Country Scene 国色",
+                "text": "During Da Qiao's turn, she can use any diamond-suited card as _Capture_."
+            },
+            {
+                "title": "Displace 流离",
+                "text": "When Da Qiao is the target of an attack, she can discard any card to redirect the attack to any other player within her attacking range other than the source."
+            }
+        ]
+    },
+    "wu007": {
+        "uuid": "lu-xun",
+        "name": "Lu Xun 陆逊",
+        "title": "Young and Learned Hero 儒生雄才",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Humility 谦逊",
+                "text": "Lu Xun cannot be the target of _Steal_ or _Capture_."
+            },
+            {
+                "title": "Linked Camps 连营",
+                "text": "Whenever Lu Xun uses or loses his last hand card, he immediately draws a card."
+            }
+        ]
+    },
+    "wu008": {
+        "uuid": "sun-shang-xiang",
+        "name": "Sun Shang Xiang 孙尚香",
+        "title": "Archery Lady 弓腰姬",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Marriage 结姻",
+                "text": "Once during Sun Shang Xiang's turn, she can discard two hand cards and select a male character who is not at full health. By doing so, she heals herself and the male character one unit of health each."
+            },
+            {
+                "title": "Armed Consorts 枭姬",
+                "text": "For each piece of equipment that leaves her equipment area, Sun Shang Xiang draws two cards."
+            }
+        ]
+    },
+    "wu009": {
+        "uuid": "sun-jian",
+        "name": "Sun Jian 孙坚",
+        "title": "Emperor Wulie 武烈帝",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Brave Spirit 英魂",
+                "text": "Before his turn, if Sun Jian damaged, he can force anyone to either\n\n1- Draw X cards, then discard 1.\n 2- Draw 1 card, then discard X,\n\nwhere X is how much health Sun Jian is missing."
+            }
+        ]
+    },
+    "wu011": {
+        "uuid": "xiao-qiao",
+        "name": "Xiao Qiao 小乔",
+        "title": "Unconventional Flower 矫情之花",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Fantasy 天香",
+                "text": "When Xiao Qiao receives damage, she can discard any heart hand card and pass the damage to any other character in play. They then draw X cards, where X is the total number of health points that the character is missing after the damage is passed."
+            },
+            {
+                "title": "Beauty 红颜",
+                "text": "All of Xiao Qiao's spades are considered to be hearts."
+            }
+        ]
+    },
+    "wu012": {
+        "uuid": "tai-shi-ci",
+        "name": "Tai Shi Ci 太史慈",
+        "title": "Strong and Faithful Warrior 万烈之士",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Heaven's Justice 天义",
+                "text": "Once per turn, Tai Shi Ci can compete with any character. If he wins, he can use an additional attack and each attack has unlimited range and can target an additional player.  If Tai Shi Ci loses, he cannot attack that turn."
+            }
+        ]
+    },
+    "wu013": {
+        "uuid": "zhou-tai",
+        "name": "Zhou Tai 周泰",
+        "title": "Battle Records in Scars 历战之躯",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Refusing Death 不屈",
+                "text": "When Zhou Tai is on the brink of death, he can choose to flip the top card of the deck and put it under his character card.  He is always considered to be on the brink of death. For each additional point of damage, he can choose to flip over another card. When he has two cards that have the same number, Zhou Tai dies. Whenever Zhou Tai is healed in this state, he can choose any of these cards and discard it."
+            }
+        ]
+    },
+    "wu014": {
+        "uuid": "lu-su",
+        "name": "Lu Su 鲁肃",
+        "title": "Arbitrary Diplomat 独断的外交家",
+        "alignment": "Wu",
+        "abilities": [
+            {
+                "title": "Charity 好施",
+                "text": "Lu Su can choose to draw an additional two cards. If he has more than five cards afterwards, Lu Su must give half of his hand, rounded down, to a character with the least number of hand cards."
+            },
+            {
+                "title": "Alliance 缔盟",
+                "text": "Once per turn, Lu Su can discard X cards to force two characters to exchange hands, where X is the difference in the number of hand cards."
+            }
+        ],
+        "clarifications": [
+            "If there are multiple players who are tied for having the least number of hand cards and Lu Su activates \"Charity,\" Lu chooses to whom the extra cards go."
+        ]
+    },
+    "qun001": {
+        "uuid": "hua-tuo",
+        "name": "Hua Tuo 华佗",
+        "title": "God Doctor 神医",
+        "alignment": "Neutral",
+        "abilities": [
+            {
+                "title": "First Aid 急救",
+                "text": "Outside of his turn, Hua Tuo can use any red card as a peach."
+            },
+            {
+                "title": "Green Vesicle 青囊",
+                "text": "Once per turn, Hua Tuo can discard any hand card to heal any character by one."
+            }
+        ]
+    },
+    "qun002": {
+        "uuid": "lu-bu",
+        "name": "Lu Bu 吕布",
+        "title": "Embodiment of Force 武的化身",
+        "alignment": "Neutral",
+        "abilities": [
+            {
+                "title": "Matchless 无双",
+                "text": "When Lu Bu attacks a player, they must use an additional escape to stop the attack.  When Lu Bu duels another player, they must use an additional attack every round of the duel."
+            }
+        ]
+    },
+    "qun003": {
+        "uuid": "diao-chan",
+        "name": "Diao Chan 貂蝉",
+        "title": "Masterpiece of Dance and Beauty 绝世的舞姬",
+        "alignment": "Neutral",
+        "abilities": [
+            {
+                "title": "Sow Discord 离间",
+                "text": "Once during her turn, Diao Chan can discard any card and choose two male characters to undergo duel."
+            },
+            {
+                "title": "Eclipse the Moon 闭月",
+                "text": "After her discard phase, Diao Chan draws one card."
+            }
+        ]
+    },
+    "qun004": {
+        "uuid": "yuan-shao",
+        "name": "Yuan Shao 袁绍",
+        "title": "Noble Heritage 高贵的名门",
+        "alignment": "Neutral",
+        "abilities": [
+            {
+                "title": "Random Strike 乱击",
+                "text": "Yuan Shao can use two hand cards of the same suit as hail of arrows."
+            },
+            {
+                "title": "Bloodline 血裔",
+                "text": "King Ability: Yuan Shao's maximum hand limit is increased by two for every other living hero."
+            }
+        ]
+    },
+    "qun005": {
+        "uuid": "yan-liang-wen-chou",
+        "name": "Yan Liang & Wen Chou 颜良 & 文丑",
+        "title": "Tiger and Wolf Brothers 虎狼兄弟",
+        "alignment": "Neutral",
+        "abilities": [
+            {
+                "title": "Dueling Heroes 双雄",
+                "text": "During Yan Liang and Wen Chou's drawing phase, they can choose to not draw. Instead they perform a judgment. The card is then put into their hand. For the rest of their turn, all of the opposite colored hand cards can be used as duel."
+            }
+        ]
+    },
+    "qun006": {
+        "uuid": "dong-zhuo",
+        "name": "Dong Zhuo 董卓",
+        "title": "Demon King 魔王",
+        "alignment": "Neutral",
+        "abilities": [
+            {
+                "title": "Wine 酒池",
+                "text": "Dong Zhuo can use any spade card in his hand as wine."
+            },
+            {
+                "title": "Garden of Lust 肉林",
+                "text": "Whenever Dong Zhuo attacks or is attacked by a female, the target must use an additional escape to avoid damage."
+            },
+            {
+                "title": "Collapse 崩坏",
+                "text": "At the end of Dong Zhuo's turn, if he has more units of health than any character, he must either lose one health or reduce his maximum health limit by one."
+            },
+            {
+                "title": "Violent Tyrant 暴虐",
+                "text": "King Ability: When another neutral character damages a player, they can allow Dong Zhuo to flip a judgment. If it is a spade, Dong Zhuo heals one."
+            }
+        ]
+    },
+    "qun007": {
+        "uuid": "jia-xu",
+        "name": "Jia Xu 贾诩",
+        "title": "Cold and Hardened Intellectual 冷酷的毒士",
+        "alignment": "Neutral",
+        "abilities": [
+            {
+                "title": "Complete Kill 完杀",
+                "text": "During Jia Xu's turn, only Jia Xu and players on the brink of death can use peach."
+            },
+            {
+                "title": "Upheaval 乱武",
+                "text": "Once per game, Jia Xu can force all other players to attack a player in their range.  If a player does not, they lose one health."
+            },
+            {
+                "title": "Curtain 帷幕",
+                "text": "Jia Xu cannot be targeted by black tool cards."
+            }
+        ],
+        "clarifications": [
+            "Because of \"Curtain,\" Jia Xu cannot play the spade Lightning, as this would require him to target himself with a black tool card. When the black-suited Lightning is in play, it passes over Jia Xu during his turn and goes to the character to his immediate right at the game table."
+        ]
+    },
+    "qun008": {
+        "uuid": "pang-de",
+        "name": "Pang De 庞德",
+        "title": "Man and Horse as One 人马一体",
+        "alignment": "Neutral",
+        "abilities": [
+            {
+                "title": "Horsemanship 马术",
+                "text": "Pang De always has a bonus -1 horse."
+            },
+            {
+                "title": "Sudden Attack 猛进",
+                "text": "Whenever Pang De attacks and the target uses an escape, Pang De can choose a card from the target and discard it."
+            }
+        ]
+    },
+    "qun010": {
+        "uuid": "zhang-jiao",
+        "name": "Zhang Jiao 张角",
+        "title": "General of Heaven 天公将军",
+        "alignment": "Neutral",
+        "abilities": [
+            {
+                "title": "Lightning Strike 雷击",
+                "text": "Whenever Zhang Jiao plays an escape, he can select any character and have them flip a judgment. If it is a spade, they are dealt two units of lightning damage."
+            },
+            {
+                "title": "Dark Magic 鬼道",
+                "text": "After a judgment is flipped, Zhang Jiao can discard any black card to replace the judgment card. The original card that was flipped then goes into Zhang Jiao's hand."
+            },
+            {
+                "title": "Amber Sky 黄天",
+                "text": "King Ability: Other heroes can give Zhang Jiao one escape or lightning during their turn."
+            }
+        ]
+    },
+    "qun011": {
+        "uuid": "yu-jij",
+        "name": "Yu Ji 于吉",
+        "title": "Immortal of Peace 太平道人",
+        "alignment": "Neutral",
+        "abilities": [
+            {
+                "title": "Bewilder 蛊惑",
+                "text": "Whenever Yu Ji wants to use a non-delay tool or basic card, he can play any card face down and speak the card that he wishes to use. Then, anyone can choose to not believe him.  If everybody believes Yu Ji, the card is flipped and goes into effect as he claimed. If there are any players in doubt, the card is flipped. If Yu Ji is telling the truth, all characters that doubted lose one health. If Yu Ji was not telling the truth, the doubting characters draw a card. If anyone doubted and Yu Ji told the truth and the card is a heart, the card goes into effect.  Otherwise the card is discarded."
+            }
+        ],
+        "clarifications": [
+            "If there are doubters when Yu Ji uses \"Bewilder\" to attack somebody which causes the attack to get discarded, he can try again and Yu Ji is not considered to have used an Attack.",
+            "When other characters lose health from not believing Yu Ji using \"Bewilder,\" their abilities cannot be used. For example, when Sima Yi takes damaged from not believing, he does not get to take a card from Yu Ji. This is because they are losing health and not taking damage.",
+            "However, if Yu Ji kills a player from their disbelief, it does not count as his kill. He cannot draw three from doing away with a rebel in this fashion.",
+            "If a player is on the brink of death, they do not have the option of not believing Yu Ji. They are forced to believe anything he says.  This includes a Zhou Tai that has zero health."
+        ]
+    }
+}
