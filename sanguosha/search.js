@@ -16,9 +16,11 @@ fetch("https://jeffr.ee/sanguosha/base.json").then(function (r) {
   return cards = Object.assign({}, cards, r);
 });
 
-//fetch("https://jeffr.ee/sanguosha/cards.json")
-//.then(r => r.json())
-//.then(r => cards = {...cards, ...r})
+fetch("https://jeffr.ee/sanguosha/cards.json").then(function (r) {
+  return r.json();
+}).then(function (r) {
+  return cards = Object.assign({}, cards, r);
+});
 
 var Results = function (_React$Component) {
   _inherits(Results, _React$Component);
@@ -30,13 +32,13 @@ var Results = function (_React$Component) {
   }
 
   _createClass(Results, [{
-    key: 'renderObject',
+    key: "renderObject",
     value: function renderObject(id) {
       if (!cards[id]) {
-        return React.createElement('div', null);
+        return React.createElement("div", null);
       } else if (Array.isArray(cards[id])) {
         return React.createElement(
-          'div',
+          "div",
           null,
           cards.map(this.renderObject)
         );
@@ -52,44 +54,44 @@ var Results = function (_React$Component) {
             clarifications = _cards$id.clarifications;
 
         return React.createElement(
-          'div',
+          "div",
           { style: {
               display: "flex",
               padding: "1em",
               flexWrap: "wrap",
               justifyContent: "center"
             } },
-          React.createElement('img', { src: 'res/' + uuid + '.jpg', style: { height: "400px", padding: "0 1em" } }),
+          React.createElement("img", { src: "res/" + uuid + ".jpg", style: { height: "400px", padding: "0 1em" } }),
           React.createElement(
-            'div',
+            "div",
             { style: { height: "400px", padding: "0 1em", maxWidth: "500px" }, key: uuid },
             name && React.createElement(
-              'h1',
+              "h1",
               null,
               name
             ),
             title && React.createElement(
-              'p',
+              "p",
               null,
               title
             ),
             alignment && React.createElement(
-              'p',
+              "p",
               null,
-              'Alignment: ',
+              "Alignment: ",
               alignment
             ),
             abilities && abilities.map(function (obj) {
               return React.createElement(
-                'div',
+                "div",
                 { key: obj.title },
                 React.createElement(
-                  'h3',
+                  "h3",
                   null,
                   obj.title
                 ),
                 React.createElement(
-                  'p',
+                  "p",
                   null,
                   obj.text
                 )
@@ -100,7 +102,7 @@ var Results = function (_React$Component) {
       }
     }
   }, {
-    key: 'render',
+    key: "render",
     value: function render() {
       var id = this.props.id;
 
@@ -109,18 +111,18 @@ var Results = function (_React$Component) {
         return this.renderObject(id);
       } else if (id) {
         return React.createElement(
-          'center',
+          "center",
           null,
           React.createElement(
-            'p',
+            "p",
             null,
-            'ID "',
+            "ID \"",
             id,
-            '" not found'
+            "\" not found"
           )
         );
       } else {
-        return React.createElement('div', null);
+        return React.createElement("div", null);
       }
     }
   }]);
@@ -162,30 +164,30 @@ var Search = function (_React$Component2) {
   }
 
   _createClass(Search, [{
-    key: 'render',
+    key: "render",
     value: function render() {
       var state = this.state,
           props = this.props;
 
       return React.createElement(
-        'div',
+        "div",
         null,
         React.createElement(
-          'center',
+          "center",
           null,
-          React.createElement('img', { src: 'logo.png', width: '40%', height: '40%' }),
+          React.createElement("img", { src: "logo.png", width: "40%", height: "40%" }),
           React.createElement(
-            'div',
+            "div",
             null,
-            React.createElement('input', { type: 'search', id: 'query', name: 'query', value: this.state.queryText, style: { width: "600px" },
+            React.createElement("input", { type: "search", id: "query", name: "query", value: this.state.queryText, style: { width: "600px" },
               onChange: this.updateQuery, onKeyPress: this.handleKeyPress }),
-            React.createElement('br', null),
-            React.createElement('p', { style: { margin: "10px" } }),
+            React.createElement("br", null),
+            React.createElement("p", { style: { margin: "10px" } }),
             React.createElement(
-              'div',
+              "div",
               null,
-              React.createElement('input', { type: 'button', id: 'search', value: 'Search', onClick: this.submit }),
-              React.createElement('input', { type: 'button', id: 'lucky', value: 'I\'m Feeling Lucky' })
+              React.createElement("input", { type: "button", id: "search", value: "Search", onClick: this.submit }),
+              React.createElement("input", { type: "button", id: "lucky", value: "I'm Feeling Lucky" })
             )
           )
         ),

@@ -6,9 +6,9 @@ fetch("https://jeffr.ee/sanguosha/base.json")
   .then(r => r.json())
   .then(r => cards = {...cards, ...r})
 
-//fetch("https://jeffr.ee/sanguosha/cards.json")
-  //.then(r => r.json())
-  //.then(r => cards = {...cards, ...r})
+fetch("https://jeffr.ee/sanguosha/cards.json")
+  .then(r => r.json())
+  .then(r => cards = {...cards, ...r})
 
 class Results extends React.Component {
   constructor(props) {
