@@ -22,12 +22,12 @@ class Results extends React.Component {
       return (
         <div>
           {
-            cards.map(renderObject)
+            cards.map(this.renderObject)
           }
         </div>
       );
     } else if (typeof cards[id] === 'string' || cards[id] instanceof String) {
-      return renderObject(cards[id]);
+      return this.renderObject(cards[id]);
     } else {
       const { uuid, name, title, alignment, abilities, clarifications } = cards[id];
       return (

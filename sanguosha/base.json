@@ -339,9 +339,9 @@
             }
         ]
     },
-    "shu009": "wei-bei",
-    "wei-bei" : {
-        "uuid": "wei-bei",
+    "shu009": "wei-yan",
+    "wei-yan" : {
+        "uuid": "wei-yan",
         "name": "Wei Yan 魏延",
         "title": "Bloodthirsty Lone Wolf 嗜血的独狼",
         "alignment": "Shu",

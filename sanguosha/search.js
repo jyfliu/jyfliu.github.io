@@ -31,27 +31,17 @@ var Results = function (_React$Component) {
 
   _createClass(Results, [{
     key: 'renderObject',
-    value: function (_renderObject) {
-      function renderObject(_x) {
-        return _renderObject.apply(this, arguments);
-      }
-
-      renderObject.toString = function () {
-        return _renderObject.toString();
-      };
-
-      return renderObject;
-    }(function (id) {
+    value: function renderObject(id) {
       if (!cards[id]) {
         return React.createElement('div', null);
       } else if (Array.isArray(cards[id])) {
         return React.createElement(
           'div',
           null,
-          cards.map(renderObject)
+          cards.map(this.renderObject)
         );
       } else if (typeof cards[id] === 'string' || cards[id] instanceof String) {
-        return renderObject(cards[id]);
+        return this.renderObject(cards[id]);
       } else {
         var _cards$id = cards[id],
             uuid = _cards$id.uuid,
@@ -108,7 +98,7 @@ var Results = function (_React$Component) {
           )
         );
       }
-    })
+    }
   }, {
     key: 'render',
     value: function render() {
