@@ -1,5 +1,6 @@
 {
-    "wei001": {
+    "wei001": "cao-cao",
+    "cao-cao": {
         "uuid": "cao-cao",
         "name": "Cao Cao 曹操",
         "title": "Martial Emperor of Wei 魏武帝",
@@ -15,7 +16,8 @@
             }
         ]
     },
-    "wei002": {
+    "wei002": "sima-yi",
+    "sima-yi": {
         "uuid": "sima-yi",
         "name": "Sima Yi 司马懿",
         "title": "Ever Watchful Wolf 狼顾之鬼",
@@ -31,7 +33,8 @@
             }
         ]
     },
-    "wei003": {
+    "wei003": "xiaohou-dun",
+    "xiaohou-dun" : {
         "uuid": "xiaohou-dun",
         "name": "Xiahou Dun 夏侯敦",
         "title": "One Eyed Companion 独眼的罗刹",
@@ -43,7 +46,8 @@
             }
         ]
     },
-    "wei004": {
+    "wei004": "zhang-liao",
+    "zhang-liao" : {
         "uuid": "zhang-liao",
         "name": "Zhang Liao 张辽",
         "title": "General of the Vanguard 前将军",
@@ -59,7 +63,8 @@
             "Zhang Liao cannot mix \"Raid\" with drawing from the deck, ie., he cannot take one hand card from an opponent and draw one from the deck"
         ]
     },
-    "wei005": {
+    "wei005": "xu-chu",
+    "xu-chu" : {
         "uuid": "xu-chu",
         "name": "Xu Chu 许诸",
         "title": "Crazy Tiger 虎痴",
@@ -67,11 +72,12 @@
         "abilities": [
             {
                 "title": "Bare the Chest 裸衣",
-                "text": "During Xu Chu's drawing phase, he can choose to draw one fewer card. During his action phase, all damage that he causes by using _Attack_s or _Duel_s is increased by one."
+                "text": "During Xu Chu's drawing phase, he can choose to draw one fewer card. During his action phase, all damage that he causes by using attacks or _Duel_s is increased by one."
             }
         ]
     },
-    "wei006": {
+    "wei006": "guo-jia",
+    "guo-jia" : {
         "uuid": "guo-jia",
         "name": "Guo Jia 郭嘉",
         "title": "Prophet with an Early End 早终的先知",
@@ -90,7 +96,8 @@
             "If Guo Jia is brought to the brink of death, he must be revived before he can draw cards from \"Bestowed Rouse.\""
         ]
     },
-    "wei007": {
+    "wei007": "zhen-ji",
+    "zhen-ji" : {
         "uuid": "zhen-ji",
         "name": "Zhen Ji 甄姬",
         "title": "Unfortunate Beauty 薄幸的美人",
@@ -106,7 +113,8 @@
             }
         ]
     },
-    "wei008": {
+    "wei008": "xiahou-yuan",
+    "xiahou-yuan" : {
         "uuid": "xiahou-yuan",
         "name": "Xiahou Yuan 夏侯渊",
         "title": "Running Cheetah 急行的猎豹",
@@ -118,7 +126,21 @@
             }
         ]
     },
-    "wei010": {
+    "wei009": "zhang-he",
+    "zhang-he" : {
+        "uuid": "zhang-he",
+        "name": "Zhang He 张郃",
+        "title": "Anticipating Military General 料敌机先",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Clever Change 巧变",
+                "text": "At the beginning of any of his phases (judgement, drawing, action, discard), Zhang He can discard a hand card to skip the phase. If Zhang He skips his drawing phase with this ability, he can select up to two characters and draw one hand card from each. If Zhang He skips his action phase in this manner, he can select one piece of equipment or pending delay tool card on one character and place it in an identical location on another character. If he moves equipment in this manner, he cannot use it to replace another similar piece of equipment on another character."
+            }
+        ]
+    },
+    "wei010": "xu-huang",
+    "xu-huang" : {
         "uuid": "xu-huang",
         "name": "Xu Huang 徐晃",
         "title": "Zhou Yafu of Old 周亚夫之风",
@@ -130,7 +152,8 @@
             }
         ]
     },
-    "wei011": {
+    "wei011": "cao-ren",
+    "cao-ren" : {
         "uuid": "cao-ren",
         "name": "Cao Ren 曹仁",
         "title": "Great General 大将军",
@@ -142,7 +165,8 @@
             }
         ]
     },
-    "wei012": {
+    "wei012": "dian-wei",
+    "dian-wei" : {
         "uuid": "dian-wei",
         "name": "Dian Wei 典韦",
         "title": "Ancient E Lai 古之恶来",
@@ -154,7 +178,8 @@
             }
         ]
     },
-    "wei013": {
+    "wei013": "xun-yu",
+    "xun-yu" : {
         "uuid": "xun-yu",
         "name": "Xun Yu 荀彧",
         "title": "Advisor of Kings 王佐之才",
@@ -170,7 +195,8 @@
             }
         ]
     },
-    "wei014": {
+    "wei014": "cao-pi",
+    "cao-pi" : {
         "uuid": "cao-pi",
         "name": "Cao Pi 曹丕",
         "title": "Dominating Successor 霸业的继承者",
@@ -190,7 +216,8 @@
             }
         ]
     },
-    "shu001": {
+    "shu001": "liu-bei",
+    "liu-bei" : {
         "uuid": "liu-bei",
         "name": "Liu Bei 刘备",
         "title": "Hero Through Troubled Times 乱世的枭雄",
@@ -206,7 +233,8 @@
             }
         ]
     },
-    "shu002": {
+    "shu002": "guan-yu",
+    "guan-yu" : {
         "uuid": "guan-yu",
         "name": "Guan Yu 关羽",
         "title": "Bearded Gentleman 美须公",
@@ -221,7 +249,8 @@
             "Guan Yu's \"Fighting Saint\" allows him to use any of his red cards as _Attack_, whether they are equipped or in his hand. If he uses an equipped card to attack, he sacrifices the properties of the equipment before the attack"
         ]
     },
-    "shu003": {
+    "shu003": "zhang-fei",
+    "zhang-fei" : {
         "uuid": "zhang-fei",
         "name": "Zhang Fei 张飞",
         "title": "Ten Thousand Men Cannot Equal 万夫不当",
@@ -233,7 +262,8 @@
             }
         ]
     },
-    "shu004": {
+    "shu004": "zhuge-liang",
+    "zhuge-liang" : {
         "uuid": "zhuge-liang",
         "name": "Zhuge Liang 诸葛亮",
         "title": "Old Prime Minister 迟暮的丞相",
@@ -249,7 +279,8 @@
             }
         ]
     },
-    "shu005": {
+    "shu005": "zhao-yun",
+    "zhao-yun" : {
         "uuid": "zhao-yun",
         "name": "Zhao Yun 赵云",
         "title": "Young General 少年将军",
@@ -261,7 +292,8 @@
             }
         ]
     },
-    "shu006": {
+    "shu006": "ma-chao",
+    "ma-chao" : {
         "uuid": "ma-chao",
         "name": "Ma Chao 马超",
         "title": "One Rider Matches One Thousand 一骑当千",
@@ -277,7 +309,8 @@
             }
         ]
     },
-    "shu007": {
+    "shu007": "huang-yue-ying",
+    "huang-yue-ying" : {
         "uuid": "huang-yue-ying",
         "name": "Huang Yue Ying 黄月英",
         "title": "Veiled Heroine 归隐的杰女",
@@ -293,7 +326,8 @@
             }
         ]
     },
-    "shu008": {
+    "shu008": "huang-zhong",
+    "huang-zhong" : {
         "uuid": "huang-zhong",
         "name": "Huang Zhong 黄忠",
         "title": "Old but Strong 老当益壮",
@@ -305,7 +339,8 @@
             }
         ]
     },
-    "shu009": {
+    "shu009": "wei-bei",
+    "wei-bei" : {
         "uuid": "wei-bei",
         "name": "Wei Yan 魏延",
         "title": "Bloodthirsty Lone Wolf 嗜血的独狼",
@@ -320,7 +355,8 @@
             "Wei Yan's \"Violent Spirit\" activates even when he hurts himself. However, if he brings himself to the brink of death, he must be saved with a Peach or Wine before regaining the additional unit of health."
         ]
     },
-    "shu010": {
+    "shu010": "pang-tong",
+    "pang-tong" : {
         "uuid": "pang-tong",
         "name": "Pang Tong 庞统",
         "title": "Young Phoenix 凤雏",
@@ -336,7 +372,8 @@
             }
         ]
     },
-    "shu011": {
+    "shu011": "zhuge-liang-8",
+    "zhuge-liang-8" : {
         "uuid": "zhuge-liang-8",
         "name": "Young Zhuge Liang 诸葛亮",
         "title": "Sleeping Dragon 卧龙",
@@ -356,7 +393,8 @@
             }
         ]
     },
-    "shu014": {
+    "shu014": "meng-huo",
+    "meng-huo" : {
         "uuid": "meng-huo",
         "name": "Meng Huo 孟获",
         "title": "Southern Barbarian King 南蛮王",
@@ -372,7 +410,8 @@
             }
         ]
     },
-    "shu015": {
+    "shu015": "zhu-rong",
+    "zhu-rong" : {
         "uuid": "zhu-rong",
         "name": "Zhu Rong 祝融",
         "title": "Queen of the Wilds 野性的女王",
@@ -388,7 +427,8 @@
             }
         ]
     },
-    "wu001": {
+    "wu001": "sun-quan",
+    "sun-quan" : {
         "uuid": "sun-quan",
         "name": "Sun Quan 孙权",
         "title": "Young and Worthy Lord 年轻的贤君",
@@ -404,7 +444,8 @@
             }
         ]
     },
-    "wu002": {
+    "wu002": "gan-ning",
+    "gan-ning" : {
         "uuid": "gan-ning",
         "name": "Gan Ning 甘宁",
         "title": "Pirate with Silk Sails 锦帆游侠",
@@ -416,7 +457,8 @@
             }
         ]
     },
-    "wu003": {
+    "wu003": "lu-meng",
+    "lu-meng" : {
         "uuid": "lu-meng",
         "name": "Lu Meng 吕蒙",
         "title": "Ford the River in White 白衣渡江",
@@ -428,7 +470,8 @@
             }
         ]
     },
-    "wu004": {
+    "wu004": "huang-gai",
+    "huang-gai" : {
         "uuid": "huang-gai",
         "name": "Huang Gai 黄盖",
         "title": "Losing Flesh for the Country 轻身为国",
@@ -443,7 +486,8 @@
             "Huang Gai can bring himself to the brink of death (or even kill himself outright) with \"Battered Body,\" but he does not get to draw two cards until he is revived."
         ]
     },
-    "wu005": {
+    "wu005": "zhou-yu",
+    "zhou-yu" : {
         "uuid": "zhou-yu",
         "name": "Zhou Yu 周瑜",
         "title": "Viceroy 大都督",
@@ -459,7 +503,8 @@
             }
         ]
     },
-    "wu006": {
+    "wu006": "da-qiao",
+    "da-qiao" : {
         "uuid": "da-qiao",
         "name": "Da Qiao 大乔",
         "title": "Reserved Flower 矜持之花",
@@ -475,7 +520,8 @@
             }
         ]
     },
-    "wu007": {
+    "wu007": "lu-xun",
+    "lu-xun" : {
         "uuid": "lu-xun",
         "name": "Lu Xun 陆逊",
         "title": "Young and Learned Hero 儒生雄才",
@@ -491,7 +537,8 @@
             }
         ]
     },
-    "wu008": {
+    "wu008": "sun-shang-xiang",
+    "sun-shang-xiang" : {
         "uuid": "sun-shang-xiang",
         "name": "Sun Shang Xiang 孙尚香",
         "title": "Archery Lady 弓腰姬",
@@ -507,7 +554,8 @@
             }
         ]
     },
-    "wu009": {
+    "wu009": "sun-jian",
+    "sun-jian" : {
         "uuid": "sun-jian",
         "name": "Sun Jian 孙坚",
         "title": "Emperor Wulie 武烈帝",
@@ -519,7 +567,8 @@
             }
         ]
     },
-    "wu011": {
+    "wu011": "xiao-qiao",
+    "xiao-qiao" : {
         "uuid": "xiao-qiao",
         "name": "Xiao Qiao 小乔",
         "title": "Unconventional Flower 矫情之花",
@@ -535,7 +584,8 @@
             }
         ]
     },
-    "wu012": {
+    "wu012": "tai-shi-ci",
+    "tai-shi-ci" : {
         "uuid": "tai-shi-ci",
         "name": "Tai Shi Ci 太史慈",
         "title": "Strong and Faithful Warrior 万烈之士",
@@ -547,7 +597,8 @@
             }
         ]
     },
-    "wu013": {
+    "wu013": "zhou-tai",
+    "zhou-tai" : {
         "uuid": "zhou-tai",
         "name": "Zhou Tai 周泰",
         "title": "Battle Records in Scars 历战之躯",
@@ -559,7 +610,8 @@
             }
         ]
     },
-    "wu014": {
+    "wu014": "lu-su",
+    "lu-su" : {
         "uuid": "lu-su",
         "name": "Lu Su 鲁肃",
         "title": "Arbitrary Diplomat 独断的外交家",
@@ -578,7 +630,8 @@
             "If there are multiple players who are tied for having the least number of hand cards and Lu Su activates \"Charity,\" Lu chooses to whom the extra cards go."
         ]
     },
-    "qun001": {
+    "qun001": "hua-tuo",
+    "hua-tuo" : {
         "uuid": "hua-tuo",
         "name": "Hua Tuo 华佗",
         "title": "God Doctor 神医",
@@ -594,7 +647,8 @@
             }
         ]
     },
-    "qun002": {
+    "qun002": "lu-bu",
+    "lu-bu" : {
         "uuid": "lu-bu",
         "name": "Lu Bu 吕布",
         "title": "Embodiment of Force 武的化身",
@@ -606,7 +660,8 @@
             }
         ]
     },
-    "qun003": {
+    "qun003": "diao-chan",
+    "diao-chan" : {
         "uuid": "diao-chan",
         "name": "Diao Chan 貂蝉",
         "title": "Masterpiece of Dance and Beauty 绝世的舞姬",
@@ -622,7 +677,8 @@
             }
         ]
     },
-    "qun004": {
+    "qun004": "yuan-shao",
+    "yuan-shao" : {
         "uuid": "yuan-shao",
         "name": "Yuan Shao 袁绍",
         "title": "Noble Heritage 高贵的名门",
@@ -638,7 +694,8 @@
             }
         ]
     },
-    "qun005": {
+    "qun005": "yan-liang-wen-chou",
+    "yan-liang-wen-chou" : {
         "uuid": "yan-liang-wen-chou",
         "name": "Yan Liang & Wen Chou 颜良 & 文丑",
         "title": "Tiger and Wolf Brothers 虎狼兄弟",
@@ -650,7 +707,8 @@
             }
         ]
     },
-    "qun006": {
+    "qun006": "dong-zhuo",
+    "dong-zhuo" : {
         "uuid": "dong-zhuo",
         "name": "Dong Zhuo 董卓",
         "title": "Demon King 魔王",
@@ -674,7 +732,8 @@
             }
         ]
     },
-    "qun007": {
+    "qun007": "jia-xu",
+    "jia-xu" : {
         "uuid": "jia-xu",
         "name": "Jia Xu 贾诩",
         "title": "Cold and Hardened Intellectual 冷酷的毒士",
@@ -697,7 +756,8 @@
             "Because of \"Curtain,\" Jia Xu cannot play the spade Lightning, as this would require him to target himself with a black tool card. When the black-suited Lightning is in play, it passes over Jia Xu during his turn and goes to the character to his immediate right at the game table."
         ]
     },
-    "qun008": {
+    "qun008": "pang-de",
+    "pang-de" : {
         "uuid": "pang-de",
         "name": "Pang De 庞德",
         "title": "Man and Horse as One 人马一体",
@@ -713,7 +773,8 @@
             }
         ]
     },
-    "qun010": {
+    "qun010": "zhang-jiao",
+    "zhang-jiao" : {
         "uuid": "zhang-jiao",
         "name": "Zhang Jiao 张角",
         "title": "General of Heaven 天公将军",
@@ -733,8 +794,9 @@
             }
         ]
     },
-    "qun011": {
-        "uuid": "yu-jij",
+    "qun011": "yu-ji",
+    "yu-ji" : {
+        "uuid": "yu-ji",
         "name": "Yu Ji 于吉",
         "title": "Immortal of Peace 太平道人",
         "alignment": "Neutral",

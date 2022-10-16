@@ -1,0 +1,55 @@
+{
+    "yj001": "cao-zhi",
+    "cao-zhi" : {
+        "uuid": "cao-zhi",
+        "name": "Cao Zhi 曹植",
+        "title": "Eight Cups of Talent 八斗之才",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Fallen Bloom 落英",
+                "text": "Whenever another character discards or flips a judgement card into the discard pile that is a club, Cao Zhi can immediately place this card into his hand."
+            },
+            {
+                "title": "Wine Poems 酒诗",
+                "text": "When Cao Zhi is face up, he can choose to flip face down to use Wine (if Wine could be used). When Cao Zhi takes damage when he is face down, he can flip face up."
+            }
+        ]
+    },
+    "yj010": "yu-jin",
+    "yu-jin" : {
+        "uuid": "yu-jin",
+        "name": "Yu Jin 于禁",
+        "title": "Wei Military Mainstay 魏武之刚",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Heavy Resolve 毅重",
+                "text": "When Yu Jin has no armor equipped, black-suited Attacks have no effect on him."
+            }
+        ]
+    },
+    "yj011": "zhang-chun-hua",
+    "zhang-chun-hua" : {
+        "uuid": "zhang-chun-hua",
+        "name": "Zhang Chun Hua 张春华",
+        "title": "Cold Blooded Empress 冷血皇后",
+        "alignment": "Wei",
+        "abilities": [
+            {
+                "title": "Unfeeling 绝情",
+                "text": "When Zhang Chun Hua is about to damage another player, she is not considered the source of the damage and the target is considered to lose health due to negligance damage."
+            },
+            {
+                "title": "Mourning 伤逝",
+                "text": "Whenever the number of cards in Zhang Chun Hua's hand falls below the number of units of health that she has lost thus far, Zhang Chun Hua can draw cards until she has as many hand cards as she units of health missing. This ability does not go into effect during her discard phase."
+            }
+        ],
+        "clarifications": [
+            "Due to \"Unfeeling,\" if Zhang Chun Hua kills a rebel, she does not draw three cards. Conversely, if Zhang Chun Hua is the king and kills her loyalist, she does not discard all of her cards.",
+            "The following weapon abilities cannot be activated by Zhang Chun Hua due to \"Unfeeling\": Ice Sword, Ancient Scimitar, Longbow.",
+            "Zhang Chun Hua never causes elemental damage. Therefore, she never activates Chains damage. Zhang Chun Hua can damage characters equipping \"Wood Armor\", however she must use a fire or electric attack. However, when she uses a fire attack or blaze on a character wearing \"Wood Armor\", they only receive one unit of negligance damage (fire damage was never dealt to this character).",
+            "\"Mourning\" can be activate when Zhang Chun Hua loses hand cards or when her health level is decreased. This includes the time between a card is played and its effects activate (for example, if Zhang Chun Hua uses a Peach to heal herself, she can activate \"Mourning\" after the Peach is played but before health is recovered)."
+        ]
+    },
+}

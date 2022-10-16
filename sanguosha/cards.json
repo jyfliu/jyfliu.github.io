@@ -1,0 +1,128 @@
+{
+    "attack": {
+        "uuid": "attack",
+        "name": "Attack 杀",
+        "title": "Once per turn you can attack any player within your attacking range. They must play a dodge or they suffer one damage.",
+        "type": "Basic"
+    },
+    "dodge": {
+        "uuid": "escape",
+        "name": "Escape 闪",
+        "title": "When attacked, a player plays this card to avoid taking damage.",
+        "type": "Basic"
+    },
+    "peach": {
+        "uuid": "peach",
+        "name": "Peach 桃",
+        "title": "During their turn, a player can use a peach to increase their health by one. Also when a player is on the brink of death, any player can use a peach to give them one unit of health.",
+        "type": "Basic"
+    },
+    "wine": {
+        "uuid": "wine",
+        "name": "Wine 酒",
+        "title": "When a player is on the brink of death, that player can use play wine to restore one health. Also any player can play this card once during their turn. If they do, the damage of the next attack is increased by one.",
+        "type": "Basic"
+    },
+    "fireattack": {
+        "uuid": "fire-attack",
+        "name": "Fire Attack 火杀",
+        "title": "Once per turn, a player can use this to attack anyone in their attacking range. If the target does not use an escape, they receive one unit of fire damage.",
+        "type": "Basic"
+    },
+    "lightningattack": {
+        "uuid": "lightning-attack",
+        "name": "Lightning Attack 雷杀",
+        "title": "Once per turn, a player can use this to attack anyone within their attacking range. If the target does not use an escape, they receive one unit of lightning damage.",
+        "type": "Basic"
+    },
+    "barbarians": {
+        "uuid": "barbarians",
+        "name": "Barbarians 南蛮入侵",
+        "title": "All other players play an attack or take one damage.",
+        "type": "Tool"
+    },
+    "hailofarrows": {
+        "uuid": "hail-of-arrows",
+        "name": "Hail of Arrows 万箭齐发",
+        "title": "All other players play an escape or take one damage.",
+        "type": "Tool"
+    },
+    "peachgarden": {
+        "uuid": "peach-garden",
+        "name": "Peach Garden 桃园结义",
+        "title": "All damaged players recover one health point.",
+        "type": "Tool"
+    },
+    "harvest": {
+        "uuid": "harvest",
+        "name": "Harvest 五谷丰登",
+        "title": "When a player uses this, one card is put face up for each living player. Then starting with the user of the card, each player chooses a card and puts it in their hand.",
+        "type": "Tool"
+    },
+    "drawtwo": {
+        "uuid": "draw-two",
+        "name": "Create from Nothing 无中生有",
+        "title": "The player that plays this draws two cards from the deck.",
+        "type": "Tool"
+    },
+    "negate": {
+        "uuid": "negate",
+        "name": "Negate 无懈可击",
+        "title": "Any player can play this in response to any tool card being played. The tool card then no longer works.",
+        "type": "Tool"
+    },
+    "break": {
+        "uuid": "break",
+        "name": "Break 过河拆桥",
+        "title": "A player chooses a card from any other player and discards it.",
+        "type": "Tool"
+    },
+    "duel": {
+        "uuid": "duel",
+        "name": "Duel 决斗",
+        "title": "A player can target anyone with this card. If the target does not play an attack, they are damaged. If they attack then the source must take damage or attack. Whoever does not attack, takes damage.",
+        "type": "Tool"
+    },
+    "coerce": {
+        "uuid": "coerce",
+        "name": "Coerce 借刀杀人",
+        "title": "A player targets any other player that possesses a weapon. Then, the player chooses any player within the targets attacking range. The target then can attack the victim. If the target does not, the player takes the targets weapon and puts it in his hand.",
+        "type": "Tool"
+    },
+    "steal": {
+        "uuid": "steal",
+        "name": "Steal 顺手牵羊",
+        "title": "A player chooses a card from another player within range and puts it in their hand.",
+        "type": "Tool"
+    },
+    "blaze": {
+        "uuid": "blaze",
+        "name": "Blaze 火攻",
+        "title": "A player can target anyone with a hand with blaze. The target then shows any of their hand cards. The player can then discard any hand card of the same suit to damage them one with fire.",
+        "type": "Tool"
+    },
+    "chains": {
+        "uuid": "chains",
+        "name": "Chains 铁索连环",
+        "title": "A player can target up to two players and toggles if they are in the chain. A second option is to discard the chains and draw another card. Whenever any player in the chain takes elemental damage, all other members in the chain receive the same. After a player takes damage in the chain, they are restored out of the chain.",
+        "type": "Tool"
+    },
+    "lightning": {
+        "uuid": "lightning",
+        "name": "Lightning 闪电",
+        "title": "A player plays this delay tool on themselves. In their next turn, they perform a judgment for this card. If it is a two to nine of spades, the player receives three units of lightning damage. If it is not a two to nine of spades, then it moves to the player to the right.",
+        "type": "Delay Tool"
+    },
+    "capture": {
+        "uuid": "capture",
+        "name": "Capture 乐不思蜀",
+        "title": "A player can put this delay tool on any other player. The target must do a judgment during their turn. If it is not a heart, they lose their action phase.",
+        "type": "Delay Tool"
+    },
+    "starvation": {
+        "uuid": "starvation",
+        "name": "Starvation 兵粮寸断",
+        "title": "A player can put this delay tool on any other player within range.  The target must do a judgment during their turn.  If it is not a club, the target loses their drawing phase.",
+        "type": "Delay Tool"
+    }
+}
